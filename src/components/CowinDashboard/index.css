@@ -1,0 +1,31 @@
+.logo-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cowin-heading {
+  font-size: 20px;
+  color: #cbd5e1;
+}
+.main-container {
+  padding: 40px;
+}
+.cowin-para {
+  color: #2cc6c6;
+  font-size: 25px;
+}
+.cowin-logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+body {
+  background-color: #161625;
+  min-height: 100vh;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
