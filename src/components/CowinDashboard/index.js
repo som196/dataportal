@@ -45,7 +45,7 @@ const CowinDashboard = () => {
 
   return (
     <div className="main-container">
-      console.log(data)
+
       <div className="logo-name-container">
         <img
           src="https://assets.ccbp.in/frontend/react-js/cowin-logo.png"
@@ -67,9 +67,9 @@ const CowinDashboard = () => {
           <h1>Something went wrong</h1>
         </div>
       ) : (
-        <div className="loader-container">
+        <div>
           {isLoading && (
-            <div data-testid="loader">
+            <div data-testid="loader"  className="loader-container">
               <Loader type="ThreeDots" color="#ffffff" height={80} width={80} />
             </div>
           )}
